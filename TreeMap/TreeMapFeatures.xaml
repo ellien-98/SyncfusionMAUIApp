@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:treemap="clr-namespace:Syncfusion.Maui.TreeMap;assembly=Syncfusion.Maui.TreeMap"
+             xmlns:local="clr-namespace:SyncfusionMAUIApp"
+             x:Class="SyncfusionMAUIApp.TreeMapFeatures">
+    <Grid RowDefinitions="auto, 0.95*">
+        <treemap:SfTreeMap x:Name="treeMap" Grid.Row="1"
+                       DataSource="{Binding EmployeeDetails}"
+                        LayoutType="SliceAndDiceAuto"   
+                       SelectionMode="Multiple"  
+                       PrimaryValuePath="EmployeesCount"
+                       RangeColorValuePath="EmployeesCount"
+                       ShowToolTip="True" >
+            <treemap:SfTreeMap.BindingContext>
+                <local:EmployeeViewModel />
+            </treemap:SfTreeMap.BindingContext>
+           <treemap:SfTreeMap.LeafItemSettings>
+    <treemap:TreeMapLeafItemSettings LabelPath="JobDescription"
+                                     Stroke="Gray"
+                                     TextFormatOption="Wrap">
+        <treemap:TreeMapLeafItemSettings.TextStyle>
+            <treemap:TreeMapTextStyle TextColor="Red" FontSize="12"/>
+        </treemap:TreeMapLeafItemSettings.TextStyle>
+    </treemap:TreeMapLeafItemSettings>
+</treemap:SfTreeMap.LeafItemSettings>
+           <treemap:SfTreeMap.LeafItemBrushSettings>
+    <treemap:TreeMapRangeBrushSettings>
+        <treemap:TreeMapRangeBrushSettings.RangeBrushes>
+            <treemap:TreeMapRangeBrush LegendLabel="1 % Growth" From = "10" To="30" Brush="#A4C400"/>
+            <treemap:TreeMapRangeBrush LegendLabel="2 % Growth" From = "31" To="50" Brush="#AA00FF"/>
+            <treemap:TreeMapRangeBrush LegendLabel="3 % Growth" From = "51" To="80" Brush="#F0A30A"/>
+            <treemap:TreeMapRangeBrush LegendLabel="4 % Growth" From = "81" To="100" Brush="#1BA1E2"/>
+        </treemap:TreeMapRangeBrushSettings.RangeBrushes>
+    </treemap:TreeMapRangeBrushSettings>
+</treemap:SfTreeMap.LeafItemBrushSettings>
+            <treemap:SfTreeMap.LegendSettings>
+                <treemap:TreeMapLegendSettings ShowLegend="True"
+                                           IconType="Rectangle"
+                                           Placement="Top">
+                </treemap:TreeMapLegendSettings>
+            </treemap:SfTreeMap.LegendSettings>
+          <treemap:SfTreeMap.Levels>
+            <treemap:TreeMapLevel Stroke="Gray"
+                                  Background="Transparent"
+                                  GroupPath="Country">
+            </treemap:TreeMapLevel>
+			</treemap:SfTreeMap.Levels>
+        </treemap:SfTreeMap>
+    </Grid>
+</ContentPage>
