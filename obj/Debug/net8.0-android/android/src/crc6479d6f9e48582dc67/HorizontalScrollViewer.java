@@ -10,6 +10,8 @@ public class HorizontalScrollViewer
 	public static final String __md_methods;
 	static {
 		__md_methods = 
+			"n_requestChildFocus:(Landroid/view/View;Landroid/view/View;)V:GetRequestChildFocus_Landroid_view_View_Landroid_view_View_Handler\n" +
+			"n_onOverScrolled:(IIZZ)V:GetOnOverScrolled_IIZZHandler\n" +
 			"n_onInterceptTouchEvent:(Landroid/view/MotionEvent;)Z:GetOnInterceptTouchEvent_Landroid_view_MotionEvent_Handler\n" +
 			"n_onTouchEvent:(Landroid/view/MotionEvent;)Z:GetOnTouchEvent_Landroid_view_MotionEvent_Handler\n" +
 			"";
@@ -51,6 +53,22 @@ public class HorizontalScrollViewer
 			mono.android.TypeManager.Activate ("Syncfusion.Maui.Core.Internals.HorizontalScrollViewer, Syncfusion.Maui.Core", "Android.Content.Context, Mono.Android", this, new java.lang.Object[] { p0 });
 		}
 	}
+
+
+	public void requestChildFocus (android.view.View p0, android.view.View p1)
+	{
+		n_requestChildFocus (p0, p1);
+	}
+
+	private native void n_requestChildFocus (android.view.View p0, android.view.View p1);
+
+
+	public void onOverScrolled (int p0, int p1, boolean p2, boolean p3)
+	{
+		n_onOverScrolled (p0, p1, p2, p3);
+	}
+
+	private native void n_onOverScrolled (int p0, int p1, boolean p2, boolean p3);
 
 
 	public boolean onInterceptTouchEvent (android.view.MotionEvent p0)

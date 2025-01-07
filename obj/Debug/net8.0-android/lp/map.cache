@@ -28,6 +28,7 @@ Syncfusion.Maui.Scheduler.dll
 Syncfusion.Maui.SignaturePad.dll
 Syncfusion.Maui.Sliders.dll
 Syncfusion.Maui.TabView.dll
+Syncfusion.Maui.Toolkit.dll
 Syncfusion.Maui.TreeMap.dll
 Xamarin.Android.Glide.Annotations.dll
 Xamarin.Android.Glide.DiskLruCache.dll
@@ -181,4 +182,3 @@ Microsoft.Maui.aar
 Microsoft.Maui.Essentials.aar
 Xamarin.Google.Crypto.Tink.Android.aar
 Xamarin.Google.ErrorProne.Annotations.aar
-Syncfusion.Maui.Toolkit.dll

@@ -70,6 +70,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = SyncfusionMAUIApp.DataForm
 build_metadata.AdditionalFiles.TargetPath = DataForm\PersonalInformation.xaml
 build_metadata.AdditionalFiles.RelativePath = DataForm\PersonalInformation.xaml
 
+[C:/Users/e.ntoulia/source/repos/SyncfusionMAUIApp/SyncfusionMAUIApp/DataForm/PersonalInformationE.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SyncfusionMAUIApp.DataForm.PersonalInformationE.xaml
+build_metadata.AdditionalFiles.TargetPath = DataForm\PersonalInformationE.xaml
+build_metadata.AdditionalFiles.RelativePath = DataForm\PersonalInformationE.xaml
+
 [C:/Users/e.ntoulia/source/repos/SyncfusionMAUIApp/SyncfusionMAUIApp/DataGrid/DataGridFeatures.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = SyncfusionMAUIApp.DataGrid.DataGridFeatures.xaml

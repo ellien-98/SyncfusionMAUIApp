@@ -99,7 +99,7 @@
             },
             "Syncfusion.Maui.Core": {
               "target": "Package",
-              "version": "[28.1.37, )"
+              "version": "[28.1.38, )"
             },
             "Syncfusion.Maui.DataForm": {
               "target": "Package",
@@ -107,7 +107,7 @@
             },
             "Syncfusion.Maui.DataGrid": {
               "target": "Package",
-              "version": "[*, )"
+              "version": "[28.1.38, )"
             },
             "Syncfusion.Maui.Gauges": {
               "target": "Package",
@@ -202,7 +202,7 @@
             },
             "Syncfusion.Maui.Core": {
               "target": "Package",
-              "version": "[28.1.37, )"
+              "version": "[28.1.38, )"
             },
             "Syncfusion.Maui.DataForm": {
               "target": "Package",
@@ -210,7 +210,7 @@
             },
             "Syncfusion.Maui.DataGrid": {
               "target": "Package",
-              "version": "[*, )"
+              "version": "[28.1.38, )"
             },
             "Syncfusion.Maui.Gauges": {
               "target": "Package",
@@ -315,7 +315,7 @@
             },
             "Syncfusion.Maui.Core": {
               "target": "Package",
-              "version": "[28.1.37, )"
+              "version": "[28.1.38, )"
             },
             "Syncfusion.Maui.DataForm": {
               "target": "Package",
@@ -323,7 +323,7 @@
             },
             "Syncfusion.Maui.DataGrid": {
               "target": "Package",
-              "version": "[*, )"
+              "version": "[28.1.38, )"
             },
             "Syncfusion.Maui.Gauges": {
               "target": "Package",
@@ -423,7 +423,7 @@
             },
             "Syncfusion.Maui.Core": {
               "target": "Package",
-              "version": "[28.1.37, )"
+              "version": "[28.1.38, )"
             },
             "Syncfusion.Maui.DataForm": {
               "target": "Package",
@@ -431,7 +431,7 @@
             },
             "Syncfusion.Maui.DataGrid": {
               "target": "Package",
-              "version": "[*, )"
+              "version": "[28.1.38, )"
             },
             "Syncfusion.Maui.Gauges": {
               "target": "Package",

@@ -26,6 +26,7 @@
                 BorderColor="Red"
                 CornerRadius="10"
                 HeightRequest="100"
+                Margin="30"
                 VerticalOptions="EndAndExpand" 
                 WidthRequest="200" >
                 <signaturePad:SfSignaturePad />

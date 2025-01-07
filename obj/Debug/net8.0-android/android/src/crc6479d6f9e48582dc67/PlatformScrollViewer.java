@@ -12,6 +12,7 @@ public class PlatformScrollViewer
 		__md_methods = 
 			"n_onInterceptTouchEvent:(Landroid/view/MotionEvent;)Z:GetOnInterceptTouchEvent_Landroid_view_MotionEvent_Handler\n" +
 			"n_onTouchEvent:(Landroid/view/MotionEvent;)Z:GetOnTouchEvent_Landroid_view_MotionEvent_Handler\n" +
+			"n_onOverScrolled:(IIZZ)V:GetOnOverScrolled_IIZZHandler\n" +
 			"";
 		mono.android.Runtime.register ("Syncfusion.Maui.Core.Internals.PlatformScrollViewer, Syncfusion.Maui.Core", PlatformScrollViewer.class, __md_methods);
 	}
@@ -67,6 +68,14 @@ public class PlatformScrollViewer
 	}
 
 	private native boolean n_onTouchEvent (android.view.MotionEvent p0);
+
+
+	public void onOverScrolled (int p0, int p1, boolean p2, boolean p3)
+	{
+		n_onOverScrolled (p0, p1, p2, p3);
+	}
+
+	private native void n_onOverScrolled (int p0, int p1, boolean p2, boolean p3);
 
 	private java.util.ArrayList refList;
 	public void monodroidAddReference (java.lang.Object obj)

@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "4Ww/BnRtbs8=",
-  "success": false,
+  "dgSpecHash": "sYzwKmYJNkU=",
+  "success": true,
   "projectFilePath": "C:\\Users\\e.ntoulia\\source\\repos\\SyncfusionMAUIApp\\SyncfusionMAUIApp\\SyncfusionMAUIApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\e.ntoulia\\.nuget\\packages\\bitmiracle.libtiff.net\\2.4.649\\bitmiracle.libtiff.net.2.4.649.nupkg.sha512",
@@ -42,7 +42,7 @@
     "C:\\Users\\e.ntoulia\\.nuget\\packages\\syncfusion.maui.buttons\\28.1.38\\syncfusion.maui.buttons.28.1.38.nupkg.sha512",
     "C:\\Users\\e.ntoulia\\.nuget\\packages\\syncfusion.maui.calendar\\28.1.38\\syncfusion.maui.calendar.28.1.38.nupkg.sha512",
     "C:\\Users\\e.ntoulia\\.nuget\\packages\\syncfusion.maui.charts\\28.1.38\\syncfusion.maui.charts.28.1.38.nupkg.sha512",
-    "C:\\Users\\e.ntoulia\\.nuget\\packages\\syncfusion.maui.core\\28.1.37\\syncfusion.maui.core.28.1.37.nupkg.sha512",
+    "C:\\Users\\e.ntoulia\\.nuget\\packages\\syncfusion.maui.core\\28.1.38\\syncfusion.maui.core.28.1.38.nupkg.sha512",
     "C:\\Users\\e.ntoulia\\.nuget\\packages\\syncfusion.maui.data\\28.1.38\\syncfusion.maui.data.28.1.38.nupkg.sha512",
     "C:\\Users\\e.ntoulia\\.nuget\\packages\\syncfusion.maui.dataform\\28.1.37\\syncfusion.maui.dataform.28.1.37.nupkg.sha512",
     "C:\\Users\\e.ntoulia\\.nuget\\packages\\syncfusion.maui.datagrid\\28.1.38\\syncfusion.maui.datagrid.28.1.38.nupkg.sha512",
@@ -156,46 +156,5 @@
     "C:\\Users\\e.ntoulia\\.nuget\\packages\\microsoft.maccatalyst.runtime.maccatalyst-x64.net8.0_18.0\\18.0.8319\\microsoft.maccatalyst.runtime.maccatalyst-x64.net8.0_18.0.18.0.8319.nupkg.sha512",
     "C:\\Users\\e.ntoulia\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.19041.54\\microsoft.windows.sdk.net.ref.10.0.19041.54.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1605",
-      "level": "Error",
-      "message": "Warning As Error: Detected package downgrade: Syncfusion.Maui.Core from 28.1.38 to 28.1.37. Reference the package directly from the project to select a different version. \r\n SyncfusionMAUIApp -> Syncfusion.Maui.DataGrid 28.1.38 -> Syncfusion.Maui.Core (>= 28.1.38) \r\n SyncfusionMAUIApp -> Syncfusion.Maui.Core (>= 28.1.37)",
-      "libraryId": "Syncfusion.Maui.Core",
-      "targetGraphs": [
-        "net8.0-android34.0",
-        "net8.0-android34.0/android-arm",
-        "net8.0-android34.0/android-arm64",
-        "net8.0-android34.0/android-x64",
-        "net8.0-android34.0/android-x86",
-        "net8.0-android34.0/iossimulator-x64",
-        "net8.0-android34.0/maccatalyst-x64",
-        "net8.0-android34.0/win10-x64",
-        "net8.0-ios18.0",
-        "net8.0-ios18.0/android-arm",
-        "net8.0-ios18.0/android-arm64",
-        "net8.0-ios18.0/android-x64",
-        "net8.0-ios18.0/android-x86",
-        "net8.0-ios18.0/iossimulator-x64",
-        "net8.0-ios18.0/maccatalyst-x64",
-        "net8.0-ios18.0/win10-x64",
-        "net8.0-maccatalyst18.0",
-        "net8.0-maccatalyst18.0/android-arm",
-        "net8.0-maccatalyst18.0/android-arm64",
-        "net8.0-maccatalyst18.0/android-x64",
-        "net8.0-maccatalyst18.0/android-x86",
-        "net8.0-maccatalyst18.0/iossimulator-x64",
-        "net8.0-maccatalyst18.0/maccatalyst-x64",
-        "net8.0-maccatalyst18.0/win10-x64",
-        "net8.0-windows10.0.19041",
-        "net8.0-windows10.0.19041/android-arm",
-        "net8.0-windows10.0.19041/android-arm64",
-        "net8.0-windows10.0.19041/android-x64",
-        "net8.0-windows10.0.19041/android-x86",
-        "net8.0-windows10.0.19041/iossimulator-x64",
-        "net8.0-windows10.0.19041/maccatalyst-x64",
-        "net8.0-windows10.0.19041/win10-x64"
-      ]
-    }
-  ]
+  "logs": []
 }
