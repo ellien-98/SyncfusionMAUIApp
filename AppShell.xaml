@@ -6,8 +6,10 @@
     xmlns:local="clr-namespace:SyncfusionMAUIApp"
     Shell.FlyoutBehavior="Flyout">
 
-<ShellContent Title = "DataGrid" ContentTemplate = "{DataTemplate local:DataGridFeatures}" Route ="DataGrid" /> 
+<ShellContent Title="Main Page" ContentTemplate="{DataTemplate local:MainPage}" Route="MainPage" />
 <ShellContent Title = "Autocomplete" ContentTemplate = "{DataTemplate local:AutocompleteFeatures}" Route ="Autocomplete" /> 
+<ShellContent Title="PersonalInformation" ContentTemplate="{DataTemplate local:PersonalInformation}" Route="PersonalInformation" />
+<ShellContent Title = "DataGrid" ContentTemplate = "{DataTemplate local:DataGridFeatures}" Route ="DataGrid" /> 
 <ShellContent Title = "ListView" ContentTemplate = "{DataTemplate local:ListViewFeatures}" Route ="ListView" /> 
 <ShellContent Title = "ComboBox" ContentTemplate = "{DataTemplate local:ComboBoxFeatures}" Route ="ComboBox" /> 
 <ShellContent Title = "DataForm" ContentTemplate = "{DataTemplate local:DataFormFeatures}" Route ="DataForm" /> 

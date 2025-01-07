@@ -69,7 +69,7 @@
           "dependencies": {
             "Microsoft.Extensions.Logging.Debug": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[9.0.0, )"
             },
             "Microsoft.Maui.Controls": {
               "target": "Package",
@@ -85,6 +85,10 @@
               "version": "[8.0.11, )",
               "autoReferenced": true
             },
+            "Nager.Country": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
             "Syncfusion.Maui.Buttons": {
               "target": "Package",
               "version": "[*, )"
@@ -95,11 +99,11 @@
             },
             "Syncfusion.Maui.Core": {
               "target": "Package",
-              "version": "[*, )"
+              "version": "[28.1.37, )"
             },
             "Syncfusion.Maui.DataForm": {
               "target": "Package",
-              "version": "[*, )"
+              "version": "[28.1.37, )"
             },
             "Syncfusion.Maui.DataGrid": {
               "target": "Package",
@@ -128,6 +132,14 @@
             "Syncfusion.Maui.Scheduler": {
               "target": "Package",
               "version": "[*, )"
+            },
+            "Syncfusion.Maui.SignaturePad": {
+              "target": "Package",
+              "version": "[28.1.38, )"
+            },
+            "Syncfusion.Maui.Toolkit": {
+              "target": "Package",
+              "version": "[1.0.3, )"
             },
             "Syncfusion.Maui.TreeMap": {
               "target": "Package",
@@ -160,7 +172,7 @@
           "dependencies": {
             "Microsoft.Extensions.Logging.Debug": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[9.0.0, )"
             },
             "Microsoft.Maui.Controls": {
               "target": "Package",
@@ -176,6 +188,10 @@
               "version": "[8.0.11, )",
               "autoReferenced": true
             },
+            "Nager.Country": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
             "Syncfusion.Maui.Buttons": {
               "target": "Package",
               "version": "[*, )"
@@ -186,11 +202,11 @@
             },
             "Syncfusion.Maui.Core": {
               "target": "Package",
-              "version": "[*, )"
+              "version": "[28.1.37, )"
             },
             "Syncfusion.Maui.DataForm": {
               "target": "Package",
-              "version": "[*, )"
+              "version": "[28.1.37, )"
             },
             "Syncfusion.Maui.DataGrid": {
               "target": "Package",
@@ -219,6 +235,14 @@
             "Syncfusion.Maui.Scheduler": {
               "target": "Package",
               "version": "[*, )"
+            },
+            "Syncfusion.Maui.SignaturePad": {
+              "target": "Package",
+              "version": "[28.1.38, )"
+            },
+            "Syncfusion.Maui.Toolkit": {
+              "target": "Package",
+              "version": "[1.0.3, )"
             },
             "Syncfusion.Maui.TreeMap": {
               "target": "Package",
@@ -261,7 +285,7 @@
           "dependencies": {
             "Microsoft.Extensions.Logging.Debug": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[9.0.0, )"
             },
             "Microsoft.Maui.Controls": {
               "target": "Package",
@@ -277,6 +301,10 @@
               "version": "[8.0.11, )",
               "autoReferenced": true
             },
+            "Nager.Country": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
             "Syncfusion.Maui.Buttons": {
               "target": "Package",
               "version": "[*, )"
@@ -287,11 +315,11 @@
             },
             "Syncfusion.Maui.Core": {
               "target": "Package",
-              "version": "[*, )"
+              "version": "[28.1.37, )"
             },
             "Syncfusion.Maui.DataForm": {
               "target": "Package",
-              "version": "[*, )"
+              "version": "[28.1.37, )"
             },
             "Syncfusion.Maui.DataGrid": {
               "target": "Package",
@@ -320,6 +348,14 @@
             "Syncfusion.Maui.Scheduler": {
               "target": "Package",
               "version": "[*, )"
+            },
+            "Syncfusion.Maui.SignaturePad": {
+              "target": "Package",
+              "version": "[28.1.38, )"
+            },
+            "Syncfusion.Maui.Toolkit": {
+              "target": "Package",
+              "version": "[1.0.3, )"
             },
             "Syncfusion.Maui.TreeMap": {
               "target": "Package",
@@ -363,7 +399,7 @@
           "dependencies": {
             "Microsoft.Extensions.Logging.Debug": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[9.0.0, )"
             },
             "Microsoft.Maui.Controls": {
               "target": "Package",
@@ -372,6 +408,10 @@
             "Microsoft.Maui.Controls.Compatibility": {
               "target": "Package",
               "version": "[8.0.83, )"
+            },
+            "Nager.Country": {
+              "target": "Package",
+              "version": "[4.0.0, )"
             },
             "Syncfusion.Maui.Buttons": {
               "target": "Package",
@@ -383,11 +423,11 @@
             },
             "Syncfusion.Maui.Core": {
               "target": "Package",
-              "version": "[*, )"
+              "version": "[28.1.37, )"
             },
             "Syncfusion.Maui.DataForm": {
               "target": "Package",
-              "version": "[*, )"
+              "version": "[28.1.37, )"
             },
             "Syncfusion.Maui.DataGrid": {
               "target": "Package",
@@ -416,6 +456,14 @@
             "Syncfusion.Maui.Scheduler": {
               "target": "Package",
               "version": "[*, )"
+            },
+            "Syncfusion.Maui.SignaturePad": {
+              "target": "Package",
+              "version": "[28.1.38, )"
+            },
+            "Syncfusion.Maui.Toolkit": {
+              "target": "Package",
+              "version": "[1.0.3, )"
             },
             "Syncfusion.Maui.TreeMap": {
               "target": "Package",

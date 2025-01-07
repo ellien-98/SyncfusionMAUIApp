@@ -5,6 +5,7 @@ namespace SyncfusionMAUIApp
         public AppShell()
         {
             InitializeComponent();
+            //MainPage = new AppShell();
         }
     }
 }

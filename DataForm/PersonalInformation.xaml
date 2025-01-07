@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:signaturePad="clr-namespace:Syncfusion.Maui.SignaturePad;assembly=Syncfusion.Maui.SignaturePad"
+             xmlns:dataForm="clr-namespace:Syncfusion.Maui.DataForm;assembly=Syncfusion.Maui.DataForm"
+             x:Class="SyncfusionMAUIApp.PersonalInformation" Title="PersonalInformation"
+             xmlns:local="clr-namespace:SyncfusionMAUIApp">
+    <ContentPage.BindingContext>
+        <local:DataFormViewModelPI></local:DataFormViewModelPI>
+    </ContentPage.BindingContext>
+
+    <ContentPage.Content>
+        <StackLayout>
+
+            <dataForm:SfDataForm 
+                x:Name="dataForm" 
+                CommitMode="LostFocus"
+                DataObject="{Binding ContactInfo}"
+                GenerateDataFormItem="dataForm_GenerateDataFormItem"
+                HeightRequest="600"
+                LayoutType="TextInputLayout" 
+                ValidationMode="Manual"
+                VerticalOptions="Start" />
+
+            <Frame
+                BorderColor="Red"
+                CornerRadius="10"
+                HeightRequest="100"
+                VerticalOptions="EndAndExpand" 
+                WidthRequest="200" >
+                <signaturePad:SfSignaturePad />
+            </Frame>
+
+            <Button  
+                x:Name="saveButton"
+                Margin="10"
+                HeightRequest="40"
+                Text="Save"
+                VerticalOptions="End"
+                Clicked="saveButton_Clicked"
+                WidthRequest="200" />
+            
+        </StackLayout>        
+    </ContentPage.Content>
+
+</ContentPage>

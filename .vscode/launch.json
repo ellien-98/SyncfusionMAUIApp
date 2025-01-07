@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "name": "C#: SyncfusionMAUIApp",
+            "type": "dotnet",
+            "request": "launch",
+            "projectPath": "${workspaceFolder}\\SyncfusionMAUIApp.csproj",
+            "launchConfigurationId": "vscode-maui"
+        }
+    ]
+}

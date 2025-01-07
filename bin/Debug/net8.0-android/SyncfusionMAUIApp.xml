@@ -1,0 +1,273 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SyncfusionMAUIApp</name>
+    </assembly>
+    <members>
+        <member name="T:SyncfusionMAUIApp.AutocompleteFeatures">
+            <summary>
+            AutocompleteFeatures class
+            </summary>
+        </member>
+        <member name="M:SyncfusionMAUIApp.AutocompleteFeatures.#ctor">
+            <summary>
+            AutocompleteFeatures constructor
+            </summary>
+        </member>
+        <member name="T:SyncfusionMAUIApp.SocialMedia">
+            <summary>
+            AutocompleteFeatures Model class
+            </summary>
+        </member>
+        <member name="T:SyncfusionMAUIApp.SocialMediaViewModel">
+            <summary>
+            AutocompleteFeatures ViewModel class
+            </summary>
+        </member>
+        <member name="M:SyncfusionMAUIApp.SocialMediaViewModel.#ctor">
+            <summary>
+            AutocompleteFeatures ViewModel class constructor
+            </summary>
+        </member>
+        <member name="M:SyncfusionMAUIApp.CountryViewModel.#ctor">
+            <summary>
+            AutocompleteFeatures ViewModel class constructor
+            </summary>
+        </member>
+        <member name="T:SyncfusionMAUIApp.ButtonFeatures">
+            <summary>
+            ButtonFeatures class
+            </summary>
+        </member>
+        <member name="M:SyncfusionMAUIApp.ButtonFeatures.#ctor">
+            <summary>
+            ButtonFeatures constructor
+            </summary>
+        </member>
+        <member name="T:SyncfusionMAUIApp.CircularChartsFeatures">
+            <summary>
+            CircularChartsFeatures class
+            </summary>
+        </member>
+        <member name="M:SyncfusionMAUIApp.CircularChartsFeatures.#ctor">
+            <summary>
+            CircularChartsFeatures constructor
+            </summary>
+        </member>
+        <member name="T:SyncfusionMAUIApp.Sales">
+            <summary>
+            CircularChartsFeatures Model class
+            </summary>
+        </member>
+        <member name="T:SyncfusionMAUIApp.CircularChartViewModel">
+            <summary>
+            CircularChartsFeatures ViewModel class
+            </summary>
+        </member>
+        <member name="M:SyncfusionMAUIApp.CircularChartViewModel.#ctor">
+            <summary>
+            CircularChartsFeatures ViewModel class constructor
+            </summary>
+        </member>
+        <member name="T:SyncfusionMAUIApp.ComboBoxFeatures">
+            <summary>
+            ComboBoxFeatures class
+            </summary>
+        </member>
+        <member name="M:SyncfusionMAUIApp.ComboBoxFeatures.#ctor">
+            <summary>
+            ComboBoxFeatures constructor
+            </summary>
+        </member>
+        <member name="T:SyncfusionMAUIApp.SocialMediaClass">
+            <summary>
+            ComboBoxFeatures Model class
+            </summary>
+        </member>
+        <member name="T:SyncfusionMAUIApp.SocialMediaViewModels">
+            <summary>
+            ComboBoxFeatures ViewModel class
+            </summary>
+        </member>
+        <member name="M:SyncfusionMAUIApp.SocialMediaViewModels.#ctor">
+            <summary>
+            ComboBoxFeatures ViewModel class constructor
+            </summary>
+        </member>
+        <member name="T:SyncfusionMAUIApp.DataFormFeatures">
+            <summary>
+            DataFormFeatures class
+            </summary>
+        </member>
+        <member name="T:SyncfusionMAUIApp.ContactsInfo">
+            <summary>
+            DataFormFeatures Model class
+            </summary>
+        </member>
+        <member name="T:SyncfusionMAUIApp.DataFormViewModel">
+            <summary>
+            DataFormFeatures ViewModel class
+            </summary>
+        </member>
+        <member name="M:SyncfusionMAUIApp.DataFormViewModel.#ctor">
+            <summary>
+            DataFormFeatures ViewModel class constructor
+            </summary>
+        </member>
+        <member name="T:SyncfusionMAUIApp.DataGridFeatures">
+            <summary>
+            DataGridFeatures class
+            </summary>
+        </member>
+        <member name="M:SyncfusionMAUIApp.DataGridFeatures.#ctor">
+            <summary>
+            DataGridFeatures constructor
+            </summary>
+        </member>
+        <member name="T:SyncfusionMAUIApp.LinearGaugeFeatures">
+            <summary>
+            LinearGaugeFeatures class
+            </summary>
+        </member>
+        <member name="M:SyncfusionMAUIApp.LinearGaugeFeatures.#ctor">
+            <summary>
+            LinearGaugeFeatures constructor
+            </summary>
+        </member>
+        <member name="T:SyncfusionMAUIApp.ListViewFeatures">
+            <summary>
+            ListViewFeatures class
+            </summary>
+        </member>
+        <member name="M:SyncfusionMAUIApp.ListViewFeatures.#ctor">
+            <summary>
+            ListViewFeatures constructor
+            </summary>
+        </member>
+        <member name="T:SyncfusionMAUIApp.MapsFeatures">
+            <summary>
+            MapsFeatures class
+            </summary>
+        </member>
+        <member name="M:SyncfusionMAUIApp.MapsFeatures.#ctor">
+            <summary>
+            MapsFeatures constructor
+            </summary>
+        </member>
+        <member name="T:SyncfusionMAUIApp.MapsViewModel">
+            <summary>
+            MapsFeatures ViewModel class
+            </summary>
+        </member>
+        <member name="M:SyncfusionMAUIApp.MapsViewModel.#ctor">
+            <summary>
+            MapsFeatures ViewModel class constructor
+            </summary>
+        </member>
+        <member name="T:SyncfusionMAUIApp.MapsViewModel.MapModel">
+            <summary>
+            MapsFeatures Model class
+            </summary>
+        </member>
+        <member name="M:SyncfusionMAUIApp.MapsViewModel.MapModel.#ctor(System.String,System.String,System.Int32)">
+            <summary>
+            MapsFeatures Model class constructor
+            </summary>
+        </member>
+        <member name="T:SyncfusionMAUIApp.PDFViewerFeatures">
+            <summary>
+            PDFViewerFeatures class
+            </summary>
+        </member>
+        <member name="M:SyncfusionMAUIApp.PDFViewerFeatures.#ctor">
+            <summary>
+            PDFViewerFeatures constructor
+            </summary>
+        </member>
+        <member name="T:SyncfusionMAUIApp.PDFViewerViewModel">
+            <summary>
+            ViewModel class for the PDFViewerFeatures 
+            </summary>
+        </member>
+        <member name="P:SyncfusionMAUIApp.PDFViewerViewModel.PdfDocumentStream">
+            <summary>
+            The PDF document stream that is loaded into the instance of the PDF viewer. 
+            </summary>
+        </member>
+        <member name="M:SyncfusionMAUIApp.PDFViewerViewModel.#ctor">
+            <summary>
+            Constructor of the view model class
+            </summary>
+        </member>
+        <member name="T:SyncfusionMAUIApp.PyramidChartsFeatures">
+            <summary>
+            PyramidChartsFeatures class
+            </summary>
+        </member>
+        <member name="M:SyncfusionMAUIApp.PyramidChartsFeatures.#ctor">
+            <summary>
+            PyramidChartsFeatures constructor
+            </summary>
+        </member>
+        <member name="T:SyncfusionMAUIApp.ChartViewModel">
+            <summary>
+            ViewModel class for the PyramidChartsFeatures 
+            </summary>
+        </member>
+        <member name="M:SyncfusionMAUIApp.ChartViewModel.#ctor">
+            <summary>
+            ViewModel class constructor for the PyramidChartsFeatures 
+            </summary>
+        </member>
+        <member name="T:SyncfusionMAUIApp.Stage">
+            <summary>
+            Model class for the PyramidChartsFeatures 
+            </summary>
+        </member>
+        <member name="T:SyncfusionMAUIApp.RadialGaugeFeatures">
+            <summary>
+            RadialGaugeFeatures class
+            </summary>
+        </member>
+        <member name="M:SyncfusionMAUIApp.RadialGaugeFeatures.#ctor">
+            <summary>
+            RadialGaugeFeatures class constructor
+            </summary>
+        </member>
+        <member name="T:SyncfusionMAUIApp.SchedulerFeatures">
+            <summary>
+            SchedulerFeatures class
+            </summary>
+        </member>
+        <member name="M:SyncfusionMAUIApp.SchedulerFeatures.#ctor">
+            <summary>
+            SchedulerFeatures class constructor
+            </summary>
+        </member>
+        <member name="T:SyncfusionMAUIApp.SchedulerViewModel">
+            <summary>
+            ViewModel class for the SchedulerFeatures
+            </summary>
+        </member>
+        <member name="T:SyncfusionMAUIApp.TextInputLayoutFeatures">
+            <summary>
+            TextInputLayoutFeatures class
+            </summary>
+        </member>
+        <member name="M:SyncfusionMAUIApp.TextInputLayoutFeatures.#ctor">
+            <summary>
+            TextInputLayoutFeatures class constructor
+            </summary>
+        </member>
+        <member name="T:SyncfusionMAUIApp.TreeMapFeatures">
+            <summary>
+            TreeMapFeatures class
+            </summary>
+        </member>
+        <member name="M:SyncfusionMAUIApp.TreeMapFeatures.#ctor">
+            <summary>
+            TreeMapFeatures constructor
+            </summary>
+        </member>
+    </members>
+</doc>

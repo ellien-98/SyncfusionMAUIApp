@@ -7,5 +7,7 @@
     <ContentPage.BindingContext>
         <local:DataFormViewModel/>
     </ContentPage.BindingContext>
-    <dataForm:SfDataForm x:Name="dataForm" DataObject="{Binding ContactsInfo}" LayoutType="TextInputLayout"/>
+    <dataForm:SfDataForm x:Name="dataForm" 
+        DataObject="{Binding ContactsInfo}" 
+        LayoutType="TextInputLayout"/>
 </ContentPage>
