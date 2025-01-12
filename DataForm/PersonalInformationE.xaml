@@ -10,7 +10,181 @@
     </ContentPage.BindingContext>
 
     <ContentPage.Content>
-        
+        <StackLayout>
+
+            <dataForm:SfDataForm
+                x:Name="dataForm" 
+                AutoGenerateItems="False"
+                CommitMode="LostFocus"
+                DataObject="{Binding ContactInfo}"
+                GenerateDataFormItem="dataForm_GenerateDataFormItem"
+                HeightRequest="600"
+                LayoutType="TextInputLayout" 
+                ValidationMode="LostFocus"
+                VerticalOptions="Start" >
+                
+                <dataForm:SfDataForm.Items>
+                    
+                    <dataForm:DataFormGroupItem Name="Name">
+                        <dataForm:DataFormGroupItem.Items>                            
+                            <dataForm:DataFormTextItem FieldName="Name" ShowLeadingView="True">
+                                <dataForm:DataFormTextItem.LeadingView>
+                                    <Label FontFamily="InputLayoutIcons"
+                                            FontSize="18"
+                                            HeightRequest="24"
+                                            Text="F"
+                                            TextColor="Gray"
+                                            VerticalTextAlignment="End">
+                                    </Label>
+                                </dataForm:DataFormTextItem.LeadingView>
+                            </dataForm:DataFormTextItem>    
+                            <dataForm:DataFormTextItem FieldName="LastName" ShowLeadingView="True">
+                                <dataForm:DataFormTextItem.LeadingView>
+                                    <Label />
+                                </dataForm:DataFormTextItem.LeadingView>
+                            </dataForm:DataFormTextItem>
+                            <dataForm:DataFormTextItem FieldName="Password" ShowLeadingView="True">
+                                <dataForm:DataFormTextItem.LeadingView>
+                                    <Label />
+                                </dataForm:DataFormTextItem.LeadingView>
+                            </dataForm:DataFormTextItem>
+                        </dataForm:DataFormGroupItem.Items>
+                    </dataForm:DataFormGroupItem>
+
+                    <dataForm:DataFormGroupItem Name="Phone">
+                        <dataForm:DataFormGroupItem.Items>                            
+                            <dataForm:DataFormMaskedTextItem FieldName="Name" ShowLeadingView="True">
+                                <dataForm:DataFormMaskedTextItem.LeadingView>
+                                    <Label FontFamily="InputLayoutIcons"
+                                            FontSize="18"
+                                            HeightRequest="24"
+                                            Text="E"
+                                            TextColor="Gray"
+                                            VerticalTextAlignment="End">
+                                    </Label>
+                                </dataForm:DataFormMaskedTextItem.LeadingView>
+                            </dataForm:DataFormMaskedTextItem>    
+                            <dataForm:DataFormMaskedTextItem FieldName="LastName" ShowLeadingView="True">
+                                <dataForm:DataFormMaskedTextItem.LeadingView>
+                                    <Label />
+                                </dataForm:DataFormMaskedTextItem.LeadingView>
+                            </dataForm:DataFormMaskedTextItem>                            
+                        </dataForm:DataFormGroupItem.Items>
+                    </dataForm:DataFormGroupItem>       
+
+                    <dataForm:DataFormGroupItem Name="Address">
+                        <dataForm:DataFormGroupItem.Items>                            
+                            <dataForm:DataFormMultilineItem FieldName="Address" ShowLeadingView="True">
+                                <dataForm:DataFormMultilineItem.LeadingView>
+                                    <Label FontFamily="InputLayoutIcons"
+                                            FontSize="18"
+                                            HeightRequest="24"
+                                            Text="C"
+                                            TextColor="Gray"
+                                            VerticalTextAlignment="End">
+                                    </Label>
+                                </dataForm:DataFormMultilineItem.LeadingView>
+                            </dataForm:DataFormMultilineItem>    
+                            <dataForm:DataFormTextItem FieldName="City" ShowLeadingView="True">
+                                <dataForm:DataFormTextItem.LeadingView>
+                                    <Label />
+                                </dataForm:DataFormTextItem.LeadingView>
+                            </dataForm:DataFormTextItem>
+                            <dataForm:DataFormTextItem FieldName="Region" ShowLeadingView="True">
+                                <dataForm:DataFormTextItem.LeadingView>
+                                    <Label />
+                                </dataForm:DataFormTextItem.LeadingView>
+                            </dataForm:DataFormTextItem>
+                            <dataForm:DataFormTextItem FieldName="PostalCode" ShowLeadingView="True">
+                                <dataForm:DataFormTextItem.LeadingView>
+                                    <Label />
+                                </dataForm:DataFormTextItem.LeadingView>
+                            </dataForm:DataFormTextItem>
+                            <dataForm:DataFormTextItem FieldName="Country" ShowLeadingView="True">
+                                <dataForm:DataFormTextItem.LeadingView>
+                                    <Label />
+                                </dataForm:DataFormTextItem.LeadingView>
+                            </dataForm:DataFormTextItem>
+                            <dataForm:DataFormTextItem FieldName="Fax" ShowLeadingView="True">
+                                <dataForm:DataFormTextItem.LeadingView>
+                                    <Label />
+                                </dataForm:DataFormTextItem.LeadingView>
+                            </dataForm:DataFormTextItem>
+                            <dataForm:DataFormTextItem FieldName="Mail" ShowLeadingView="True">
+                                <dataForm:DataFormTextItem.LeadingView>
+                                    <Label />
+                                </dataForm:DataFormTextItem.LeadingView>
+                            </dataForm:DataFormTextItem>
+
+                        </dataForm:DataFormGroupItem.Items>
+                    </dataForm:DataFormGroupItem>
+
+
+                    <dataForm:DataFormGroupItem Name="Mail">
+                        <dataForm:DataFormGroupItem.Items>
+
+                            <dataForm:DataFormTextItem FieldName="Email" ShowLeadingView="True">
+                                <dataForm:DataFormTextItem.LeadingView>
+                                    <Label
+                                        FontFamily="InputLayoutIcons"
+                                        FontSize="18"
+                                        HeightRequest="24"
+                                        Text="G"
+                                        TextColor="Gray"
+                                        VerticalTextAlignment="End"
+                                        />
+                                </dataForm:DataFormTextItem.LeadingView>
+                            </dataForm:DataFormTextItem>
+
+                            </dataForm:DataFormGroupItem.Items>
+                    </dataForm:DataFormGroupItem>
+
+                    <dataForm:DataFormGroupItem Name="Preferences">
+                        <dataForm:DataFormGroupItem.Items>
+                            <dataForm:DataFormSwitchItem
+                                FieldName="SignUpForOffers"
+                                LayoutType="Default"
+                                ShowLeadingView="True"
+                            />  
+                            <dataForm:DataFormSwitchItem
+                                FieldName="SendUpdates"
+                                LayoutType="Default"
+                                ShowLeadingView="True"
+                            />  
+                            <dataForm:DataFormRadioGroupItem
+                                FieldName="PreferredContact"
+                                LayoutType="Default"
+                                ShowLeadingView="True"
+                            />  
+
+
+                        </dataForm:DataFormGroupItem.Items>
+                    </dataForm:DataFormGroupItem>
+                                         
+
+                </dataForm:SfDataForm.Items>                
+            </dataForm:SfDataForm>
+
+            <Frame
+                BorderColor="Red"
+                CornerRadius="10"
+                HeightRequest="100"
+                Margin="30"
+                VerticalOptions="EndAndExpand" 
+                WidthRequest="200" >
+                <signaturePad:SfSignaturePad />
+            </Frame>
+
+            <Button  
+                x:Name="saveButton"
+                Margin="10"
+                HeightRequest="40"
+                Text="Save"
+                VerticalOptions="End"
+                Clicked="saveButton_Clicked"
+                WidthRequest="200" />
+            
+        </StackLayout> 
     </ContentPage.Content>
 
 </ContentPage>

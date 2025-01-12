@@ -14,6 +14,7 @@
 
             <dataForm:SfDataForm 
                 x:Name="dataForm" 
+                AutoGenerateItems="True"
                 CommitMode="LostFocus"
                 DataObject="{Binding ContactInfo}"
                 GenerateDataFormItem="dataForm_GenerateDataFormItem"
@@ -26,7 +27,7 @@
                 BorderColor="Red"
                 CornerRadius="10"
                 HeightRequest="100"
-                Margin="30"
+                Margin="40"
                 VerticalOptions="EndAndExpand" 
                 WidthRequest="200" >
                 <signaturePad:SfSignaturePad />
@@ -34,7 +35,7 @@
 
             <Button  
                 x:Name="saveButton"
-                Margin="10"
+                Margin="60"
                 HeightRequest="40"
                 Text="Save"
                 VerticalOptions="End"

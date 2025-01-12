@@ -53248,26 +53248,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\e.ntoulia\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Eleftheria\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\e.ntoulia\\source\\repos\\SyncfusionMAUIApp\\SyncfusionMAUIApp\\SyncfusionMAUIApp.csproj",
+      "projectUniqueName": "C:\\Users\\Eleftheria\\Desktop\\Eleftheria\\Projects\\SyncfusionMAUIAp\\SyncfusionMAUIApp\\SyncfusionMAUIApp.csproj",
       "projectName": "SyncfusionMAUIApp",
-      "projectPath": "C:\\Users\\e.ntoulia\\source\\repos\\SyncfusionMAUIApp\\SyncfusionMAUIApp\\SyncfusionMAUIApp.csproj",
-      "packagesPath": "C:\\Users\\e.ntoulia\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\e.ntoulia\\source\\repos\\SyncfusionMAUIApp\\SyncfusionMAUIApp\\obj\\",
+      "projectPath": "C:\\Users\\Eleftheria\\Desktop\\Eleftheria\\Projects\\SyncfusionMAUIAp\\SyncfusionMAUIApp\\SyncfusionMAUIApp.csproj",
+      "packagesPath": "C:\\Users\\Eleftheria\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Eleftheria\\Desktop\\Eleftheria\\Projects\\SyncfusionMAUIAp\\SyncfusionMAUIApp\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\e.ntoulia\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Eleftheria\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0-android",
@@ -53276,7 +53270,6 @@
         "net8.0-windows10.0.19041.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
@@ -53404,6 +53397,20 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[8.0.11, 8.0.11]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[8.0.11, 8.0.11]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[8.0.11, 8.0.11]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.Android": {
             "privateAssets": "all"
@@ -53509,12 +53516,24 @@
         "warn": true,
         "downloadDependencies": [
           {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[8.0.11, 8.0.11]"
+          },
+          {
             "name": "Microsoft.iOS.Ref.net8.0_18.0",
             "version": "[18.0.8319, 18.0.8319]"
           },
           {
             "name": "Microsoft.iOS.Runtime.iossimulator-x64.net8.0_18.0",
             "version": "[18.0.8319, 18.0.8319]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[8.0.11, 8.0.11]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[8.0.11, 8.0.11]"
           }
         ],
         "frameworkReferences": {
@@ -53623,12 +53642,24 @@
         "warn": true,
         "downloadDependencies": [
           {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[8.0.11, 8.0.11]"
+          },
+          {
             "name": "Microsoft.MacCatalyst.Ref.net8.0_18.0",
             "version": "[18.0.8319, 18.0.8319]"
           },
           {
             "name": "Microsoft.MacCatalyst.Runtime.maccatalyst-x64.net8.0_18.0",
             "version": "[18.0.8319, 18.0.8319]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[8.0.11, 8.0.11]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[8.0.11, 8.0.11]"
           }
         ],
         "frameworkReferences": {
@@ -53730,8 +53761,24 @@
         "warn": true,
         "downloadDependencies": [
           {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[8.0.11, 8.0.11]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[8.0.11, 8.0.11]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[8.0.11, 8.0.11]"
+          },
+          {
             "name": "Microsoft.Windows.SDK.NET.Ref",
             "version": "[10.0.19041.54, 10.0.19041.54]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[8.0.11, 8.0.11]"
           }
         ],
         "frameworkReferences": {

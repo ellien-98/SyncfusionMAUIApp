@@ -16,6 +16,9 @@ public partial class PersonalInformationE : ContentPage
         
     }
 
+	private void saveButton_Clicked(object sender, EventArgs e){
+		this.dataForm.Validate();
+	}
 	
 
 }

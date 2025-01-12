@@ -173,6 +173,9 @@ public class MonoPackageManager_Resources {
 		"Syncfusion.Maui.Inputs.resources.dll",
 		"Syncfusion.Maui.PdfViewer.resources.dll",
 		"Syncfusion.Maui.Scheduler.resources.dll",
+		"Microsoft.Maui.Controls.HotReload.Forms.dll",
+		"Microsoft.VisualStudio.DesignTools.MobileTapContracts.dll",
+		"Microsoft.VisualStudio.DesignTools.TapContract.dll",
 		"_Microsoft.Android.Resource.Designer.dll",
 	};
 	public static String[] Dependencies = new String[]{
