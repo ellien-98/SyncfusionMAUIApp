@@ -10,6 +10,7 @@
 <ShellContent Title = "Autocomplete" ContentTemplate = "{DataTemplate local:AutocompleteFeatures}" Route ="Autocomplete" /> 
 <ShellContent Title="PersonalInformation" ContentTemplate="{DataTemplate local:PersonalInformation}" Route="PersonalInformation" />
 <ShellContent Title="PersonalInformationE" ContentTemplate="{DataTemplate local:PersonalInformationE}" Route="PersonalInformationE" />
+<ShellContent Title="ProductCategory" ContentTemplate="{DataTemplate local:ProductCategory}" Route="ProductCategory" /> 
 <ShellContent Title = "DataGrid" ContentTemplate = "{DataTemplate local:DataGridFeatures}" Route ="DataGrid" /> 
 <ShellContent Title = "ListView" ContentTemplate = "{DataTemplate local:ListViewFeatures}" Route ="ListView" /> 
 <ShellContent Title = "ComboBox" ContentTemplate = "{DataTemplate local:ComboBoxFeatures}" Route ="ComboBox" /> 

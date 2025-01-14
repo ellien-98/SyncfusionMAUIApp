@@ -12,139 +12,145 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = SyncfusionMAUIApp
-build_property.ProjectDir = C:\Users\Eleftheria\Desktop\Eleftheria\Projects\SyncfusionMAUIAp\SyncfusionMAUIApp\
+build_property.ProjectDir = C:\Users\e.ntoulia\Desktop\Projects\SyncfusionMAUIApp\SyncfusionMAUIApp\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/Eleftheria/Desktop/Eleftheria/Projects/SyncfusionMAUIAp/SyncfusionMAUIApp/App.xaml]
+[C:/Users/e.ntoulia/Desktop/Projects/SyncfusionMAUIApp/SyncfusionMAUIApp/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = SyncfusionMAUIApp.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Users/Eleftheria/Desktop/Eleftheria/Projects/SyncfusionMAUIAp/SyncfusionMAUIApp/AppShell.xaml]
+[C:/Users/e.ntoulia/Desktop/Projects/SyncfusionMAUIApp/SyncfusionMAUIApp/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = SyncfusionMAUIApp.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Users/Eleftheria/Desktop/Eleftheria/Projects/SyncfusionMAUIAp/SyncfusionMAUIApp/Autocomplete/AutocompleteFeatures.xaml]
+[C:/Users/e.ntoulia/Desktop/Projects/SyncfusionMAUIApp/SyncfusionMAUIApp/Autocomplete/AutocompleteFeatures.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = SyncfusionMAUIApp.Autocomplete.AutocompleteFeatures.xaml
 build_metadata.AdditionalFiles.TargetPath = Autocomplete\AutocompleteFeatures.xaml
 build_metadata.AdditionalFiles.RelativePath = Autocomplete\AutocompleteFeatures.xaml
 
-[C:/Users/Eleftheria/Desktop/Eleftheria/Projects/SyncfusionMAUIAp/SyncfusionMAUIApp/Button/ButtonFeatures.xaml]
+[C:/Users/e.ntoulia/Desktop/Projects/SyncfusionMAUIApp/SyncfusionMAUIApp/Button/ButtonFeatures.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = SyncfusionMAUIApp.Button.ButtonFeatures.xaml
 build_metadata.AdditionalFiles.TargetPath = Button\ButtonFeatures.xaml
 build_metadata.AdditionalFiles.RelativePath = Button\ButtonFeatures.xaml
 
-[C:/Users/Eleftheria/Desktop/Eleftheria/Projects/SyncfusionMAUIAp/SyncfusionMAUIApp/Circular Charts/CircularChartsFeatures.xaml]
+[C:/Users/e.ntoulia/Desktop/Projects/SyncfusionMAUIApp/SyncfusionMAUIApp/Circular Charts/CircularChartsFeatures.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = SyncfusionMAUIApp.Circular_Charts.CircularChartsFeatures.xaml
 build_metadata.AdditionalFiles.TargetPath = Circular Charts\CircularChartsFeatures.xaml
 build_metadata.AdditionalFiles.RelativePath = Circular Charts\CircularChartsFeatures.xaml
 
-[C:/Users/Eleftheria/Desktop/Eleftheria/Projects/SyncfusionMAUIAp/SyncfusionMAUIApp/ComboBox/ComboBoxFeatures.xaml]
+[C:/Users/e.ntoulia/Desktop/Projects/SyncfusionMAUIApp/SyncfusionMAUIApp/ComboBox/ComboBoxFeatures.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = SyncfusionMAUIApp.ComboBox.ComboBoxFeatures.xaml
 build_metadata.AdditionalFiles.TargetPath = ComboBox\ComboBoxFeatures.xaml
 build_metadata.AdditionalFiles.RelativePath = ComboBox\ComboBoxFeatures.xaml
 
-[C:/Users/Eleftheria/Desktop/Eleftheria/Projects/SyncfusionMAUIAp/SyncfusionMAUIApp/DataForm/DataFormFeatures.xaml]
+[C:/Users/e.ntoulia/Desktop/Projects/SyncfusionMAUIApp/SyncfusionMAUIApp/DataForm/DataFormFeatures.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = SyncfusionMAUIApp.DataForm.DataFormFeatures.xaml
 build_metadata.AdditionalFiles.TargetPath = DataForm\DataFormFeatures.xaml
 build_metadata.AdditionalFiles.RelativePath = DataForm\DataFormFeatures.xaml
 
-[C:/Users/Eleftheria/Desktop/Eleftheria/Projects/SyncfusionMAUIAp/SyncfusionMAUIApp/DataForm/PersonalInformation.xaml]
+[C:/Users/e.ntoulia/Desktop/Projects/SyncfusionMAUIApp/SyncfusionMAUIApp/DataForm/PersonalInformation.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = SyncfusionMAUIApp.DataForm.PersonalInformation.xaml
 build_metadata.AdditionalFiles.TargetPath = DataForm\PersonalInformation.xaml
 build_metadata.AdditionalFiles.RelativePath = DataForm\PersonalInformation.xaml
 
-[C:/Users/Eleftheria/Desktop/Eleftheria/Projects/SyncfusionMAUIAp/SyncfusionMAUIApp/DataForm/PersonalInformationE.xaml]
+[C:/Users/e.ntoulia/Desktop/Projects/SyncfusionMAUIApp/SyncfusionMAUIApp/DataForm/PersonalInformationE.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = SyncfusionMAUIApp.DataForm.PersonalInformationE.xaml
 build_metadata.AdditionalFiles.TargetPath = DataForm\PersonalInformationE.xaml
 build_metadata.AdditionalFiles.RelativePath = DataForm\PersonalInformationE.xaml
 
-[C:/Users/Eleftheria/Desktop/Eleftheria/Projects/SyncfusionMAUIAp/SyncfusionMAUIApp/DataGrid/DataGridFeatures.xaml]
+[C:/Users/e.ntoulia/Desktop/Projects/SyncfusionMAUIApp/SyncfusionMAUIApp/DataGrid/DataGridFeatures.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = SyncfusionMAUIApp.DataGrid.DataGridFeatures.xaml
 build_metadata.AdditionalFiles.TargetPath = DataGrid\DataGridFeatures.xaml
 build_metadata.AdditionalFiles.RelativePath = DataGrid\DataGridFeatures.xaml
 
-[C:/Users/Eleftheria/Desktop/Eleftheria/Projects/SyncfusionMAUIAp/SyncfusionMAUIApp/Linear Gauge/LinearGaugeFeatures.xaml]
+[C:/Users/e.ntoulia/Desktop/Projects/SyncfusionMAUIApp/SyncfusionMAUIApp/Linear Gauge/LinearGaugeFeatures.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = SyncfusionMAUIApp.Linear_Gauge.LinearGaugeFeatures.xaml
 build_metadata.AdditionalFiles.TargetPath = Linear Gauge\LinearGaugeFeatures.xaml
 build_metadata.AdditionalFiles.RelativePath = Linear Gauge\LinearGaugeFeatures.xaml
 
-[C:/Users/Eleftheria/Desktop/Eleftheria/Projects/SyncfusionMAUIAp/SyncfusionMAUIApp/ListView/ListViewFeatures.xaml]
+[C:/Users/e.ntoulia/Desktop/Projects/SyncfusionMAUIApp/SyncfusionMAUIApp/ListView/ListViewFeatures.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = SyncfusionMAUIApp.ListView.ListViewFeatures.xaml
 build_metadata.AdditionalFiles.TargetPath = ListView\ListViewFeatures.xaml
 build_metadata.AdditionalFiles.RelativePath = ListView\ListViewFeatures.xaml
 
-[C:/Users/Eleftheria/Desktop/Eleftheria/Projects/SyncfusionMAUIAp/SyncfusionMAUIApp/MainPage.xaml]
+[C:/Users/e.ntoulia/Desktop/Projects/SyncfusionMAUIApp/SyncfusionMAUIApp/ListView/ProductCategory.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SyncfusionMAUIApp.ListView.ProductCategory.xaml
+build_metadata.AdditionalFiles.TargetPath = ListView\ProductCategory.xaml
+build_metadata.AdditionalFiles.RelativePath = ListView\ProductCategory.xaml
+
+[C:/Users/e.ntoulia/Desktop/Projects/SyncfusionMAUIApp/SyncfusionMAUIApp/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = SyncfusionMAUIApp.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[C:/Users/Eleftheria/Desktop/Eleftheria/Projects/SyncfusionMAUIAp/SyncfusionMAUIApp/Maps/MapsFeatures.xaml]
+[C:/Users/e.ntoulia/Desktop/Projects/SyncfusionMAUIApp/SyncfusionMAUIApp/Maps/MapsFeatures.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = SyncfusionMAUIApp.Maps.MapsFeatures.xaml
 build_metadata.AdditionalFiles.TargetPath = Maps\MapsFeatures.xaml
 build_metadata.AdditionalFiles.RelativePath = Maps\MapsFeatures.xaml
 
-[C:/Users/Eleftheria/Desktop/Eleftheria/Projects/SyncfusionMAUIAp/SyncfusionMAUIApp/PDF Viewer/PDFViewerFeatures.xaml]
+[C:/Users/e.ntoulia/Desktop/Projects/SyncfusionMAUIApp/SyncfusionMAUIApp/PDF Viewer/PDFViewerFeatures.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = SyncfusionMAUIApp.PDF_Viewer.PDFViewerFeatures.xaml
 build_metadata.AdditionalFiles.TargetPath = PDF Viewer\PDFViewerFeatures.xaml
 build_metadata.AdditionalFiles.RelativePath = PDF Viewer\PDFViewerFeatures.xaml
 
-[C:/Users/Eleftheria/Desktop/Eleftheria/Projects/SyncfusionMAUIAp/SyncfusionMAUIApp/Pyramid Charts/PyramidChartsFeatures.xaml]
+[C:/Users/e.ntoulia/Desktop/Projects/SyncfusionMAUIApp/SyncfusionMAUIApp/Pyramid Charts/PyramidChartsFeatures.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = SyncfusionMAUIApp.Pyramid_Charts.PyramidChartsFeatures.xaml
 build_metadata.AdditionalFiles.TargetPath = Pyramid Charts\PyramidChartsFeatures.xaml
 build_metadata.AdditionalFiles.RelativePath = Pyramid Charts\PyramidChartsFeatures.xaml
 
-[C:/Users/Eleftheria/Desktop/Eleftheria/Projects/SyncfusionMAUIAp/SyncfusionMAUIApp/Radial Gauge/RadialGaugeFeatures.xaml]
+[C:/Users/e.ntoulia/Desktop/Projects/SyncfusionMAUIApp/SyncfusionMAUIApp/Radial Gauge/RadialGaugeFeatures.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = SyncfusionMAUIApp.Radial_Gauge.RadialGaugeFeatures.xaml
 build_metadata.AdditionalFiles.TargetPath = Radial Gauge\RadialGaugeFeatures.xaml
 build_metadata.AdditionalFiles.RelativePath = Radial Gauge\RadialGaugeFeatures.xaml
 
-[C:/Users/Eleftheria/Desktop/Eleftheria/Projects/SyncfusionMAUIAp/SyncfusionMAUIApp/Resources/Styles/Colors.xaml]
+[C:/Users/e.ntoulia/Desktop/Projects/SyncfusionMAUIApp/SyncfusionMAUIApp/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = SyncfusionMAUIApp.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/Users/Eleftheria/Desktop/Eleftheria/Projects/SyncfusionMAUIAp/SyncfusionMAUIApp/Resources/Styles/Styles.xaml]
+[C:/Users/e.ntoulia/Desktop/Projects/SyncfusionMAUIApp/SyncfusionMAUIApp/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = SyncfusionMAUIApp.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
-[C:/Users/Eleftheria/Desktop/Eleftheria/Projects/SyncfusionMAUIAp/SyncfusionMAUIApp/Scheduler/SchedulerFeatures.xaml]
+[C:/Users/e.ntoulia/Desktop/Projects/SyncfusionMAUIApp/SyncfusionMAUIApp/Scheduler/SchedulerFeatures.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = SyncfusionMAUIApp.Scheduler.SchedulerFeatures.xaml
 build_metadata.AdditionalFiles.TargetPath = Scheduler\SchedulerFeatures.xaml
 build_metadata.AdditionalFiles.RelativePath = Scheduler\SchedulerFeatures.xaml
 
-[C:/Users/Eleftheria/Desktop/Eleftheria/Projects/SyncfusionMAUIAp/SyncfusionMAUIApp/Text Input Layout/TextInputLayoutFeatures.xaml]
+[C:/Users/e.ntoulia/Desktop/Projects/SyncfusionMAUIApp/SyncfusionMAUIApp/Text Input Layout/TextInputLayoutFeatures.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = SyncfusionMAUIApp.Text_Input_Layout.TextInputLayoutFeatures.xaml
 build_metadata.AdditionalFiles.TargetPath = Text Input Layout\TextInputLayoutFeatures.xaml
 build_metadata.AdditionalFiles.RelativePath = Text Input Layout\TextInputLayoutFeatures.xaml
 
-[C:/Users/Eleftheria/Desktop/Eleftheria/Projects/SyncfusionMAUIAp/SyncfusionMAUIApp/TreeMap/TreeMapFeatures.xaml]
+[C:/Users/e.ntoulia/Desktop/Projects/SyncfusionMAUIApp/SyncfusionMAUIApp/TreeMap/TreeMapFeatures.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = SyncfusionMAUIApp.TreeMap.TreeMapFeatures.xaml
 build_metadata.AdditionalFiles.TargetPath = TreeMap\TreeMapFeatures.xaml
