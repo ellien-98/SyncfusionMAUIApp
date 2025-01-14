@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SyncfusionMAUIApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+a6d120d0b85c9ae5ecb88ea19c2abd418e8337e9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+7f6ea9f734bd1032bf9fd40ecda221b3288dc02d")]
 [assembly: System.Reflection.AssemblyProductAttribute("SyncfusionMAUIApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SyncfusionMAUIApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

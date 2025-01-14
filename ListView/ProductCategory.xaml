@@ -1,17 +1,77 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:local="clr-namespace:SyncfusionMAUIApp" Title="ProductCategory"
+             xmlns:local="clr-namespace:SyncfusionMAUIApp"
              xmlns:syncfusion="clr-namespace:Syncfusion.Maui.ListView;assembly=Syncfusion.Maui.ListView"
              x:Class="SyncfusionMAUIApp.ProductCategory" Title="ProductCategory">
     
-    <VerticalStackLayout>
-        <Label
-            Text ="Product Category Page"
-            VerticalOptions="Center"
-            HorizontalOptions="Center"
-        />
-    </VerticalStackLayout>
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="40" />
+                <RowDefinition Height="*" />        
+            </Grid.RowDefinitions>
+            <syncfusion:SfListView x:Name="listView"
+                                Grid.Row="1"
+                                ItemSize="94"
+                                ItemsSource=""
+                                ScrollBarVisibility="Always"
+                                SelectionMode="None"
+                                >
+                <syncfusion:SfListView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*" />
+                                <RowDefinition Height="1" />
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="94" />
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+                            <Frame
+                                Grid.Row="0"
+                                Grid.Column="0"
+                                Padding="0"
+                                HasShadow="False"
+                                BorderColor="Red"
+                                CornerRadius="10"
+                                HeightRequest="72"
+                                HorizontalOptions="Center"
+                                IsClippedToBounds="True"
+                                WidthRequest="72" >
+
+                                <Image 
+                                    Grid.Row="0"
+                                    Grid.Column="0"
+                                    Aspect="Fill"
+                                    HeightRequest="72"
+                                    HorizontalOptions="Center"
+                                    Source="{Binding CategoryImage}"
+                                    VerticalOptions="FillAndExpand"
+                                    WidthRequest="72"
+                                    />
+                            </Frame>
+                            <Grid Grid.Row="0"
+                                    Grid.Column="1"
+                                    VerticalOptions="Center">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="Auto" />
+                                        <RowDefinition Height="Auto" />        
+                                    </Grid.RowDefinitions>       
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="60" />
+                                    </Grid.ColumnDefinitions> 
+                                    
+                            </Grid>
+
+                        </Grid>
+                    </DataTemplate>
+                </syncfusion:SfListView.ItemTemplate>
+            </syncfusion:SfListView>               
+        </Grid>
+    </ContentPage.Content>
 
 
 </ContentPage>
